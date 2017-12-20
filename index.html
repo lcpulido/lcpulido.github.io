@@ -1,27 +1,98 @@
 <!DOCTYPE html>
-<html>
-<style>
-	body { 
-		background-color: black;
-	}
-	
-</style>
+<html lang="en">
+<head>
+  <title>Hello Cyber World!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+		.navbar {
+			margin-bottom: 0; 
+			border-radius: 0; 
+			background-color: #e0e0e0;
+			color: #FFF; 
+			padding: 1% 0; 
+			font-size: 1.2em; 
+			border: 0; 
+		}
+		
+		.navbar-brand{
+			float: left; 
+			min-height: 55px; 
+			padding: 0 15px 5px; 
+		}
+		
+		.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
+		.navbar-inverse .navbar-nav .active a:hover {
+		
+		color: #000;
+		background-color: #e0e0e0;
+		}
+		
+		.navbar-inverse .navbar-nav li a {
+			color: #D5D5D5;
+		
+		}
+  </style>
+</head>
 <body>
-
-	<center>
-	<font color="green"><h1>Hello Cyber World!</font></h1>
-	<font color="white"><p>This website is a work in progress. I'm hosted with <a href="https://www.github.com/lcpulido">Github</a> Pages.</font></p>
-	<br>
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div clas="navbar-header">
+			<button type ="button" class="navbar-toggle" data-toggle="collapse" 
+			data-targer="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="https://lcpulido.github.io"><img src="img/lego2.png"></a>
+			
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="https://lcpulido.github.io">Home</a></li>
+				<li class="active"><a href="https://lcpulido.github.io/about-me">About Me</a></li>
+				<li class="active"><a href="https://github.com/lcpulido">Projects</a></li>
+				<li class="active"><a href="https://drive.google.com/file/d/1G5NPQugUc5b0eNO1w1xE6eC7Si_XA_2-/view?usp=sharing">Resume</a></li>
+				<li class="active"><a href="https://linkedin.com/in/luis-pulido">LinkedIn</a></li>
+				<li class="active"><a href="https://lcpulido.github.io/cool-stuff">Cool Stuff</a></li>
+				
+				</ul>
+			</div>
+			
+		</div>
+	</nav>
 	
+	<div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+		<!--- ordered list --->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
+			<li data-target="#myCarousel" data-slide-to="1" class="active"> </li
+			<li data-target="#myCarousel" data-slide-to="2" class="active"> </li>
+			<li data-target="#myCarousel" data-slide-to="3" class="active"> </li>
+		</ol>
+		
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+			<img src="img/net2.jpg">
+			<div class="carousel-caption">
+			<h1>greetings from cyperspace!</h1>
+			<br>
+			<button type="button" class="btn btn=default">Try this</button>
+			</div>
+			</div> <!--- End Active --->
+			<div class="item">
+				<img src="img/spiral.jpg">
+			</div>
+			<div class="item">
+				<img src="img/code.jpg">
+			</div>
+		</div>
 	
-	<button>About Me</button>
-	<span><button>Projects</button></span>
-	<span><button>Resume</button></span>
-	<span><button>LinkedIn</button></span>
-	<span><button>Cool Stuff</button></span>
+	</div> <!---- End of Slider --->
 	
-	
-	</center>
-
 </body>
 </html>
