@@ -1,7 +1,7 @@
 # lcpulido.github.io
 A personal website for myself and the world to see. I will be using this to display a bio, contact information, and as a way to better my programming skills. Feel free to reuse some or all of it to help you in building your own site. Made with Bootstrap and HTML. 
 
-Markup : *Navigation bar helps you connect to me. Clicking on my name Logo brings you to my github page as well.
+ *Navigation bar helps you connect to me. Clicking on my name Logo brings you to my github page as well.
 
 ![web1](https://user-images.githubusercontent.com/31392609/34366639-52208b38-ea64-11e7-8a66-45bb96f04863.png)
 
