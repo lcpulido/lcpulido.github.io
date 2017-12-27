@@ -15,8 +15,5 @@ A personal website for myself and the world to see. I will be using this to disp
 ![web2](https://user-images.githubusercontent.com/31392609/34366640-52330f9c-ea64-11e7-9bfc-e55355da8d42.png)
 
 
- *My About Me page
-
-![web3](https://user-images.githubusercontent.com/31392609/34366641-52431694-ea64-11e7-86a1-6439b4bf8378.png)
 
 
